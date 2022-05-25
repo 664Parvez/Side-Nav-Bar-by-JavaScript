@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sideBar{
+    height: 100vh;
+    width: 100px;
+    background: cornflowerblue;
+    position: relative;
+    .barIcon{
+        position: absolute;
+        left: 105px;
+        top: 310px;
+        padding: 10px;
+        background: cornflowerblue;
+        font-size: 25px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+.menu{
+    ul{
+        list-style-type: none;
+        margin-top: 80px;
+        position: absolute;
+        left: 20%;
+        li{
+            padding-top: 20px;
+            a{
+                text-decoration: none;
+                font-size: 18px;
+                font-family: 'Roboto';
+                color: yellow;
+            }
+        }
+    }
+}
+.cross{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    .fa{
+        font-size: 30px;
+        color: #fff;
+    }
+}
